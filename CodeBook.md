@@ -54,8 +54,12 @@ g. "std" maps to "stddev"
 h. "summary_mean" prefix was added to reflect the fact that values contained in these variables are aggregate means for each distinct activity/subject combination.
 
   "activity", # source data are y_test.txt and y_train.txt
-     NOTE: values are WALKING, 
+     NOTE: represents activity being performed by subject and values are WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS,
+           SITTING, STANDING, LAYING.
+     
   "subject", # source data are subject_test.txt and subject_train.txt
+     NOTE: values range from 1->30 and uniquely identify an individual subject participating in the study.  Integer
+           values were used to preserve the anonymity of the subject participant.
   
   "summary_mean_time_body_acceleration_mean_x_axis", # tBodyAcc-mean()-X
   "summary_mean_time_body_acceleration_mean_y_axis", # tBodyAcc-mean()-Y
