@@ -18,12 +18,19 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 In order to run the run_analysis.R script, the following 6 input files must be placed in the 
 current working directory when executing the script:
-a) X_train.txt - this file contains core training data
-b) y_train.txt - this file contains activity codes for training data captured in X_train.txt
-c) subject_train.txt - this file contains subject codes for training data captured in X_train.txt
-d) X_test.txt - this file contains core test data
-e) y_text.txt - this file contains activity codes for test data captured in X_test.txt
-f) subject_test.txt - this file contains subject codes for test data captured in X_test.txt
+
+i) X_train.txt - this file contains core training data
+
+ii) y_train.txt - this file contains activity codes for training data captured in X_train.txt
+
+iii) subject_train.txt - this file contains subject codes for training data captured in X_train.txt
+
+iv) X_test.txt - this file contains core test data
+
+v) y_text.txt - this file contains activity codes for test data captured in X_test.txt
+
+vi) subject_test.txt - this file contains subject codes for test data captured in X_test.txt
+
 
 The run_analysis.R script is capable of reading the aforementioned input files and produces
 the following file output to the designated current working directory:
