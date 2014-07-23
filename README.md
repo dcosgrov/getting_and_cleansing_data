@@ -3,7 +3,9 @@ README.md
 
 This repository contains the following files:
 ==============================================================================================
-1) CodeBook.md: describes the variables, summarizations, and units for each variable
+1) CodeBook.md: explains how data was collected and transformed as well as provides
+                information regarding the specific variables/units that are captured
+                in the output of the run_analysis.R script described below.
 
 ==============================================================================================
 2) run_analysis.R : 
