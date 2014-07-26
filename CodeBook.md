@@ -63,11 +63,14 @@ i. -X,-Y,-Z suffixes were changed to x_axis, y_axis, and z_axis for clarity of m
      NOTE: values range from 1->30 and uniquely identify an individual subject participating in the study.  Integer
            values were used to preserve the anonymity of the subject participant.
   
-  For variable names below containing the substring "gravity", units are in standard gravity units 'g'
-  For variable names below containing the substring "body_acceleration", value is total acceleration less gravity
-  For variable names below containing the substring "gyro", units are radians/second
+  For variable names below containing the substring "gravity", units are in standard gravity units 'g'.
+  
+  For variable names below containing the substring "body_acceleration", value is total acceleration less gravity.
+  
+  For variable names below containing the substring "gyro", units are radians/second.
   
   All values for variables/features below have been normalized with values between -1 and 1.
+  
   
   "summary_mean_time_body_acceleration_mean_x_axis", # tBodyAcc-mean()-X
   "summary_mean_time_body_acceleration_mean_y_axis", # tBodyAcc-mean()-Y
