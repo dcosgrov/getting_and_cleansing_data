@@ -272,4 +272,4 @@ tidySummaryColumnNames <- c(
 colnames(summaryData) <- tidySummaryColumnNames
 
 # Write the summary data out to a file for subsequent processing
-write.table(summaryData, file="summary_data.out")
+write.table(summaryData, file="summary_data.txt")
