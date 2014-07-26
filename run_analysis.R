@@ -1,5 +1,4 @@
 # Script Name: run_analysis.R
-# Author: D.Cosgrove
 
 # libraries to include
 library(plyr) # needed for ddply
@@ -15,20 +14,19 @@ trainingActivities$V1 <- factor(trainingActivities$V1,
                                            "WALKING DOWNSTAIRS",
                                            "SITTING","STANDING","LAYING"))
 
-trainingSubjects <- read.table('subject_train.txt', nrows=testRowCount)
-
+trainingSubjects <- read.table('subject_train.txt')
 
 # build up the TEST data including activity
 # and subject data.  This requires the merging
 # of 3 separate files.
-testData <- read.table('X_test.txt', nrows=testRowCount )
-testActivities <- read.table('y_test.txt', nrows=testRowCount)
+testData <- read.table('X_test.txt')
+testActivities <- read.table('y_test.txt')
 testActivities$V1 <- factor(testActivities$V1,
                                 levels = c(1,2,3,4,5,6),
                                 labels = c("WALKING","WALKING UPSTAIRS","WALKING DOWNSTAIRS",
                                           "SITTING","STANDING","LAYING"))
 
-testSubjects <- read.table('subject_test.txt', nrows=testRowCount)
+testSubjects <- read.table('subject_test.txt')
 
 ############################################################################
 # Extract only mean and standard deviation columns/variables numbers.
