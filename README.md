@@ -44,3 +44,9 @@ standard deviation metrics contained within the X_train.txt and X_test.txt data 
 for each unique activity/subject combination.
 
 ==============================================================================================
+3) means.txt : a file containing mean column numbers and associated column names
+4) stddev.txt: a file containing standard deviation column numbers and associated column names
+5) means_and_stddevs.txt: a file that represents the combination of means.txt and stddev.txt 
+                          used to determine the master list of mean and standard deviation 
+                          column numbers and names.
+==============================================================================================
