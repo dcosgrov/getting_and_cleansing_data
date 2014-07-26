@@ -66,12 +66,16 @@ i. -X,-Y,-Z suffixes were changed to x_axis, y_axis, and z_axis for clarity of m
 
 
   "activity", # source data are y_test.txt and y_train.txt
+  
      NOTE: represents activity being performed by subject and values are WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS,
            SITTING, STANDING, LAYING.
+           
      
   "subject", # source data are subject_test.txt and subject_train.txt
+  
      NOTE: values range from 1->30 and uniquely identify an individual subject participating in the study.  Integer
            values were used to preserve the anonymity of the subject participant.
+           
   
   For variable names below containing the substring "gravity", units are in standard gravity units 'g'.
   
