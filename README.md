@@ -37,9 +37,9 @@ vi) subject_test.txt - this file contains subject codes for test data captured i
 The run_analysis.R script is capable of reading the aforementioned input files and produces
 the following file output to the designated current working directory:
 
-summary_data.out
+summary_data.txt
 
-The summary_data.out file contains average calculations of the underlying 68 mean and
+The summary_data.txt file contains average calculations of the underlying 68 mean and
 standard deviation metrics contained within the X_train.txt and X_test.txt data files
 for each unique activity/subject combination.
 
