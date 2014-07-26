@@ -51,4 +51,5 @@ for each unique activity/subject combination.
 5) means_and_stddevs.txt: a file that represents the combination of means.txt and stddev.txt 
                           used to determine the master list of mean and standard deviation 
                           column numbers and names.
+                          
 ==============================================================================================
